@@ -8,11 +8,11 @@ public class Mean {
 		System.out.println("---------Mean---------");
 		System.out.print("Enter the No of Data:");
 		int Data=sc.nextInt();
-		int Sum=0;
+		float Sum=0;
 		for(int i=1;i<=Data;i++) {
 			System.out.print("Data ");
 			System.out.print(i+":");
-			int n=sc.nextInt();
+			float n=sc.nextInt();
 			Sum+=n;
 		}
 		float Mean=(float)Sum/Data;
