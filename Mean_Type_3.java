@@ -27,7 +27,7 @@ public class Mean_Type_3 {
 		if(h[0]!=l[1]) {
 			for(int i=0;i<n;i++){
 				l[i]=(float) (l[i]-0.5);
-				h[i]=(float) (l[i]+0.5);
+				h[i]=(float) (h[i]+0.5);
 			}
 		}
 		float C=h[1]-l[1];
