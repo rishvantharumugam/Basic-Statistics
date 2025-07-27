@@ -12,7 +12,7 @@ public class Median {
 		int n=sc.nextInt();
 		float [] m=new float[n];
 		for(int i=0;i<n;i++) {
-			System.out.print("Enter l["+i+"]:");
+			System.out.print("Enter m["+i+"]:");
 			m[i]=sc.nextFloat();
 		}
 		Arrays.sort(m);
