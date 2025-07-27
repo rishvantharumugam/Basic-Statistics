@@ -12,7 +12,7 @@ public class Mean {
 		for(int i=1;i<=Data;i++) {
 			System.out.print("Data ");
 			System.out.print(i+":");
-			float n=sc.nextInt();
+			float n=sc.nextFloat();
 			Sum+=n;
 		}
 		float Mean=(float)Sum/Data;
